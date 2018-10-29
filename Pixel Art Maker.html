@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel Art Project-Grow With Google Challenge</title>
+  <link rel="stylesheet" href="css/pixelArtMaker.css">
+  <link  href="http://fonts.googleapis.com/css?family=Cabin:400,500,600,bold" rel="stylesheet" type="text/css" >
+</head>
+<body>
+  <h1>Pixel Art Maker</h1>
+  <h2>Select Canvas Size</h2>
+  <form id="form">
+    Height
+    <input type="number" id="inputHeight" name="height" min="1"  value="10"></input>
+    Width:
+    <input type="number" id="inputWidth" name="width" min="1" value="10"></input>
+    <p>
+  <input id="submit" type="submit" value="Create">
+    </input>
+    <input id="clear" type="reset" value= "Clear ">
+    </input>
+</p>
+  </form>
+  <h2>Pick A Brush Color</h2>
+  <input type="color" id="color" ></input>
+  <h2>Start Painting!</h2>
+  <table id="table"></table>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/pixelArtMaker.js"></script>
+</body>
+</html>
+
+<!--<footer>
+    <h5>Copyright &copy; April 2018  By 
+	   Me &reg; 
+	  </h5>
+  </footer>
+-->

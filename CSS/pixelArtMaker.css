@@ -1,0 +1,76 @@
+body {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr32L-kZ_qW-NlB3romRKsq6PmfrGMaopF8-sDN5hdoM2TuBPB");
+  width:auto;
+  text-align: center;
+ /** background: *linear-gradient(to *bottom,crimson,tan);
+*/
+}
+
+input[type=submit], input[type=reset] {
+  background-color: pink;
+  padding: 8px 0px;
+  font-weight: bold;
+  outline: none;
+  margin: 0px 6px;
+  cursor: pointer;
+  box-shadow: 0 0px gold;
+  border-radius: 30px;
+  width: 12em;
+}
+
+input[type=number]{
+  padding: 4px 6px;
+  margin: 4px 24px;
+	height:25px;
+	border-radius: 8px;
+	width: 4em;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+input[type=color] {
+  background-color: grey;
+  padding: -1px 0px;
+  cursor: pointer;
+  height:30px;
+  width: 4em;
+}
+
+h1 {;
+  font-size: 100px;
+  margin: 0.2em;
+  color: black;
+  font-style: italic;
+}
+
+h2 {
+  margin: 1em 0 0.25em;
+  color:black;
+  font-weight:bold;
+  font-size: 30px;
+  margin-top: 2em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid grey;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+/**footer {
+ *width: 100%;
+*}
+*/
